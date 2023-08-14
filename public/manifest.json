@@ -1,0 +1,16 @@
+{
+  "short_name": "Pulse Puma",
+  "name": "Pulse Puma",
+  "description": "Farm PULSEPUMA with LP Tokens",
+  "icons": [
+    {
+      "src": "logo.jpg",
+      "type": "image/jpg",
+      "sizes": "16x16"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
