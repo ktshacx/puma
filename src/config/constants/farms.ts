@@ -13,8 +13,8 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       369: '0xa1077a294dde1b09bb078844df40758a5d0f9a27',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+    quoteTokenSymbol: QuoteToken.PLSX,
+    quoteTokenAdresses: contracts.PLS,
     multipliers: '0.5X',
   },
 
