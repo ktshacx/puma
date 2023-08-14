@@ -104,12 +104,12 @@ const fetchFarms = async () => {
           console.log('%c Line:99 🥛 lpTotalInQuoteToken', 'color:#33a5ff', lpTotalInQuoteToken * 1)
           console.log('%c Line:99 🥛 quoteTokenBlanceLP', 'color:#33a5ff', quoteTokenBlanceLP * 1)
         } else if (farmConfig.lpSymbol.includes('WPLS-PLSX LP')) {
-          // Total value in staking in quote token value
-          lpTotalInQuoteToken = new BigNumber(quoteTokenBlanceLP)
+        // Total value in staking in quote token value
+        lpTotalInQuoteToken = new BigNumber(quoteTokenBlanceLP)
             .div(new BigNumber(10).pow(18))
             .times(new BigNumber(2))
             .times(lpTokenRatio)
-          console.log('%c Line:107 🥛 lpTotalInQuoteToken', 'color:#33a5ff', lpTotalInQuoteToken * 1)
+          console.log('%c Line:107 🥛 quoteTokenBlanceLP', 'color:#33a5ff', lpTotalInQuoteToken * 1)
           console.log('%c Line:107 🥛 lpTokenRatio', 'color:#33a5ff', new BigNumber(lpTokenRatio).toNumber())
         } else if (farmConfig.lpSymbol.includes('-USDC')) {
           // Total value in staking in quote token value
